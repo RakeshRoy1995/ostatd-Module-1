@@ -29,10 +29,15 @@ jobs:
       - name: Simple print hello world
         run: echo Hello, world!
         
-      # Runs a single command using the runners shell
+      # Runs a single command for clone the project
       - name: Clone the project
         run: git clone https://github.com/RakeshRoy1995/ostatd-Module-1.git
 
-      # Runs a set of commands using the runners shell
+      # Runs a set of commands for see the files
       - name: see the files
         run: ls
+
+      # Runs a set of commands for read the file
+      - name: see the files
+        run: cat hello.txt
+        
