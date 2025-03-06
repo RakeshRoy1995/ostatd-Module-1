@@ -28,9 +28,11 @@ jobs:
       # Runs a single command using the runners shell
       - name: Simple print hello world
         run: echo Hello, world!
+        
+      # Runs a single command using the runners shell
+      - name: Clone the project
+        run: git clone https://github.com/RakeshRoy1995/ostatd-Module-1.git!
 
       # Runs a set of commands using the runners shell
-      - name: Run a cmd to print from txt file
-        run: |
-          echo print the file from hello txt,
-          cat hello.txt.
+      - name: see the files
+        run: ls
