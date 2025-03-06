@@ -38,6 +38,6 @@ jobs:
         run: ls
 
       # Runs a set of commands for read the file
-      - name: see the files
+      - name: print hello.txt
         run: cat hello.txt
         
