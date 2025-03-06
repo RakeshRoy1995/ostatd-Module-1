@@ -31,7 +31,7 @@ jobs:
         
       # Runs a single command using the runners shell
       - name: Clone the project
-        run: git clone https://github.com/RakeshRoy1995/ostatd-Module-1.git!
+        run: git clone https://github.com/RakeshRoy1995/ostatd-Module-1.git
 
       # Runs a set of commands using the runners shell
       - name: see the files
